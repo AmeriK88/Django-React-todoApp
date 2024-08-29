@@ -1,0 +1,117 @@
+/* Estilos generales para la página de inicio */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  color: #2c3e50;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Contenedor Notas */
+.notes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Estilos Contenedor Notas */
+.note-container {
+  background-color: #eaf2f8;
+  border-left: 5px solid #3498db;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.note-container:hover {
+  background-color: #d6eaf8;
+  transform: translateY(-2px);
+}
+
+.note-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.note-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.note-date {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+/* Estilo formularios */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+label {
+  font-weight: bold;
+  color: #34495e;
+  display: block;
+  margin-top: 15px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}

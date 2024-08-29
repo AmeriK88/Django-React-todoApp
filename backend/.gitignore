@@ -1,0 +1,14 @@
+# Archivos de configuración y entorno
+venv
+
+# Base de datos
+db.sqlite3
+
+# Migraciones
+*/migrations/*
+!*/migrations/__init__.py
+
+# Archivos generados por Python
+__pycache__/
+
+
