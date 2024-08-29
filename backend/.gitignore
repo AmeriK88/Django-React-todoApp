@@ -1,5 +1,5 @@
 # Archivos de configuración y entorno
-venv
+venv/
 
 # Base de datos
 db.sqlite3
