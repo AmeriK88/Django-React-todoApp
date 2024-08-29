@@ -23,17 +23,18 @@ Este proyecto es una aplicación de tareas pendientes (To-Do App) construida con
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/react-django-todo-app.git
-   cd react-django-todo-app/backend
+        git clone https://github.com/tu-usuario/react-django-todo-app.git
+        cd react-django-todo-app/backend
+
 
 2. **Crea y activa un entorno virtual:**
     ```bash
-    git clone https://github.com/tu-usuario/react-django-todo-app.git
-    cd react-django-todo-app/backend
+        git clone https://github.com/tu-usuario/react-django-todo-app.git
+        cd react-django-todo-app/backend
 
 3. **Instala las dependencias:**
     ```bash
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 4. **Aplica las migraciones:**
     ```bash
@@ -41,7 +42,7 @@ Este proyecto es una aplicación de tareas pendientes (To-Do App) construida con
 
 5. **Inicia el servidor de desarrollo**
     ```bash
-    python manage.py runserver
+        python manage.py runserver
 
 
 ### Frontend (React)
@@ -49,7 +50,7 @@ Este proyecto es una aplicación de tareas pendientes (To-Do App) construida con
 1. **Inicia la aplicación React:**
 
    ```bash
-   npm run dev
+        npm run dev
 
 
 
