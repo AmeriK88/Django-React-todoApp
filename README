@@ -20,33 +20,33 @@ Este proyecto es una aplicación de tareas pendientes (To-Do App) construida con
 
 ### Backend (Django)
 
-1. **Clona el repositorio:**
+- **Clona el repositorio:**
 
    ```bash
    git clone https://github.com/tu-usuario/react-django-todo-app.git
    cd react-django-todo-app/backend
 
 
-2. **Instala las dependencias:**
+- **Instala las dependencias:**
     ```bash
    pip install -r requirements.txt
 
-3. **Aplica migraciones:**
+- **Aplica migraciones:**
     ```bash
    python manage.py migrate
 
 ### Frontend (React)
 
-1. **Navega al directorio del frontend:**
+- **Navega al directorio del frontend:**
 
    ```bash
    cd ../frontend
 
-2. **Instala las dependencias:**
+- **Instala las dependencias:**
     ```bash
    npm install
 
-3. **Inicia la aplicación React:**
+- **Inicia la aplicación React:**
     ```bash
    npm start
 
