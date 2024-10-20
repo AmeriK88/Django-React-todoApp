@@ -16,15 +16,12 @@ Este proyecto es una aplicación de tareas pendientes (To-Do App) construida con
 - **Backend**: Django, Django REST Framework, Django Simple JWT, SQLite
 - **Autenticación**: JSON Web Tokens (JWT)
 
-
-
-
-
 ## Uso
-Backend: El servidor Django manejará las solicitudes de la API para las notas/tareas y la autenticación de usuarios. Asegúrate de que el servidor esté en ejecución antes de iniciar el frontend.
 
-Frontend: La aplicación React se conecta al backend para gestionar las notas/tareas y la autenticación de usuarios. Visita http://localhost:3000 en tu navegador para acceder a la aplicación.
+- **Backend**: El servidor Django manejará las solicitudes de la API para las notas/tareas y la autenticación de usuarios. Asegúrate de que el servidor esté en ejecución antes de iniciar el frontend.
 
-Contribuciones
+- **Frontend**: La aplicación React se conecta al backend para gestionar las notas/tareas y la autenticación de usuarios. Visita `http://localhost:3000` en tu navegador para acceder a la aplicación.
+
+## Contribuciones
+
 Las contribuciones son bienvenidas.
-   
