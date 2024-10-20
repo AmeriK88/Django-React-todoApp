@@ -16,44 +16,8 @@ Este proyecto es una aplicación de tareas pendientes (To-Do App) construida con
 - **Backend**: Django, Django REST Framework, Django Simple JWT, SQLite
 - **Autenticación**: JSON Web Tokens (JWT)
 
-<<<<<<< HEAD
 
 
-=======
-## Instalación
-
-### Backend (Django)
-
-- **Clona el repositorio:**
-
-   ```bash
-   git clone https://github.com/tu-usuario/react-django-todo-app.git
-   cd react-django-todo-app/backend
-
-
-- **Instala las dependencias:**
-    ```bash
-   pip install -r requirements.txt
-
-- **Aplica migraciones:**
-    ```bash
-   python manage.py migrate
-
-### Frontend (React)
-
-- **Navega al directorio del frontend:**
-
-   ```bash
-   cd ../frontend
-
-- **Instala las dependencias:**
-    ```bash
-   npm install
-
-- **Inicia la aplicación React:**
-    ```bash
-   npm start
->>>>>>> f530149182cd91e073140b3c55e12047d1844a1a
 
 
 ## Uso
